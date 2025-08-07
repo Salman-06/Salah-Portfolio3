@@ -1,24 +1,11 @@
-import Image from "next/image";
 import { Button } from "../ui/button";
 import { Download } from "lucide-react";
 
 const AboutSection = () => {
   return (
     <section id="about">
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 items-center">
-        <div className="md:col-span-1 flex justify-center animate-fade-in-up">
-          <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden shadow-lg border-4 border-primary/10">
-            <Image
-              src="https://placehold.co/400x400"
-              alt="Salah"
-              layout="fill"
-              objectFit="cover"
-              className="grayscale hover:grayscale-0 transition-all duration-500"
-              data-ai-hint="professional portrait"
-            />
-          </div>
-        </div>
-        <div className="md:col-span-2 space-y-6 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
+      <div className="flex justify-center">
+        <div className="md:col-span-2 space-y-6 animate-fade-in-up max-w-4xl text-center" style={{ animationDelay: '0.2s' }}>
           <h2 className="font-headline text-3xl md:text-4xl font-bold">About Me</h2>
           <div className="text-foreground/80 text-lg space-y-4">
             <p>
