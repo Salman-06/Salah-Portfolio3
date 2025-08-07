@@ -13,7 +13,7 @@ const ContactSection = () => {
       </div>
       <div className="flex flex-col items-center gap-8">
         <Button asChild size="lg" className="text-lg px-8 py-6">
-          <a href="mailto:salah@example.com">Say Hello</a>
+          <a href="mailto:salah240618@gmail.com">Say Hello</a>
         </Button>
         <div className="flex items-center gap-6">
           <Link href="#" aria-label="Github">
