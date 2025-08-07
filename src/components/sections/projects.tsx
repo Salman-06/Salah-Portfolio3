@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Github, Globe } from "lucide-react";
+import { Globe } from "lucide-react";
 
 const projects = [
   {
@@ -79,11 +79,6 @@ const ProjectsSection = () => {
               </div>
             </CardContent>
             <CardFooter className="flex justify-end gap-4">
-              <Button asChild variant="outline">
-                <Link href={project.githubUrl} target="_blank" rel="noopener noreferrer">
-                  <Github className="mr-2 h-4 w-4" /> Code
-                </Link>
-              </Button>
               <Button asChild>
                 <Link href={project.liveUrl} target="_blank" rel="noopener noreferrer">
                   <Globe className="mr-2 h-4 w-4" /> Live

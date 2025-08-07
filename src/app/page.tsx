@@ -3,7 +3,6 @@ import ContactSection from "@/components/sections/contact";
 import ExpertiseSection from "@/components/sections/expertise";
 import HeroSection from "@/components/sections/hero";
 import ProjectsSection from "@/components/sections/projects";
-import ResumeOptimizerSection from "@/components/sections/resume-optimizer";
 import { Separator } from "@/components/ui/separator";
 
 export default function Home() {
@@ -16,8 +15,6 @@ export default function Home() {
         <ExpertiseSection />
         <Separator className="my-16" />
         <ProjectsSection />
-        <Separator className="my-16" />
-        <ResumeOptimizerSection />
         <Separator className="my-16" />
         <ContactSection />
       </div>

@@ -11,7 +11,6 @@ const navLinks = [
   { href: "#about", label: "About" },
   { href: "#expertise", label: "Expertise" },
   { href: "#projects", label: "Projects" },
-  { href: "#resume-optimizer", label: "Resume AI" },
   { href: "#contact", label: "Contact" },
 ];
 
