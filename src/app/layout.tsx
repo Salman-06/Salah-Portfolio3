@@ -6,6 +6,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 import CustomCursor from "@/components/custom-cursor";
+import LoadingAnimation from "@/components/loading-animation";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -31,6 +32,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={`${inter.variable} ${spaceGrotesk.variable} font-body`}>
         <ThemeProvider>
+          <LoadingAnimation />
           <CustomCursor />
           <Header />
           <main>{children}</main>
