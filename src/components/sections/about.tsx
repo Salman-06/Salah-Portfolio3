@@ -15,12 +15,6 @@ const AboutSection = () => {
               My journey in tech is driven by a relentless curiosity and a love for solving complex problems. I thrive in collaborative environments and I'm always eager to learn new technologies and methodologies to build better, faster, and more scalable applications.
             </p>
           </div>
-          <Button asChild>
-            <a href="/resume.pdf" download>
-              Download Resume
-              <Download className="ml-2 h-4 w-4" />
-            </a>
-          </Button>
         </div>
       </div>
     </section>
